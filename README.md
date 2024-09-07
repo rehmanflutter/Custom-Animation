@@ -2,7 +2,6 @@
 
 ## Getting Started
 
+https://github.com/user-attachments/assets/da206dd5-406e-41d2-a058-94dd0454d88e
 
-
-Uploading WhatsApp Video 2024-09-07 at 12.57.43 PM.mp4…
 
