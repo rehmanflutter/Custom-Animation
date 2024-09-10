@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:simple_gradient_text/simple_gradient_text.dart';
+import 'package:tests/Screens/td_view.dart';
 import 'package:tests/views/final_view.dart';
 import 'package:tests/widgets/widgets/card_spring_animation.dart';
 import 'package:tests/widgets/widgets/cards_cascade_out.dart';
@@ -88,9 +89,7 @@ List<Demo> widgetsDemo = [
   Demo(
       builder: (context) => const RotatingGradientArc(),
       name: "Rotating Gradient Arc"),
-
   Demo(builder: (context) => const FinalView(), name: "FinalView"),
-
   Demo(
       builder: (context) => const CardSpringAnimation(),
       name: "Fane out Cards"),
@@ -98,5 +97,5 @@ List<Demo> widgetsDemo = [
       builder: (context) => const CardsCascadeOut(), name: "Cascade out cards"),
   Demo(builder: (context) => const CardsStack(), name: "Stack cards"),
   Demo(builder: (context) => const StackList(), name: "Stack List"),
-  //Demo(builder: (context) => const Bubles(), name: "Bubles"),
+  Demo(builder: (context) => TdView(), name: "TdView"),
 ];
